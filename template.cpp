@@ -40,7 +40,7 @@ int main() {
 // with 1sec 
 // 10^6 O(n) n
 // 10^5 O(nlogn) n
-// 10^3 O(n^2) n
+// 10^3 O(n^2) n ibland 100k
 // 10^2 O(n^3) n
 // 10^9 O(log n) n
 
