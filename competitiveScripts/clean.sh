@@ -1,0 +1,6 @@
+
+#!/bin/zsh
+
+rm 'compiled'*
+
+
