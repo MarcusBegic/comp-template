@@ -10,15 +10,24 @@
 #include <stack>
 #include <map>
 #include <set>
+#include <cmath>
+
 using namespace std;
 #define pb push_back
 #define eb emplace_back
 #define em emplace
 #define mp make_pair
 #define mt make_tuple
+#define nl endl
 #define FOR(i,a,b) for(int i=(a);i<(b);i++)
 #define INF (int)1e9
 using ll = long long;
+
+// to read from library just do :r Library/printVec.cpp
+
+void solve(){
+    
+}
 
 
 int main() {
@@ -37,10 +46,14 @@ int main() {
 
   return 0;
 }
+
+
+
+
 // with 1sec 
 // 10^6 O(n) n
 // 10^5 O(nlogn) n
-// 10^3 O(n^2) n 
+// 10^3 O(n^2) n
 // 10^2 O(n^3) n
 // 10^9 O(log n) n
 
@@ -126,13 +139,9 @@ int main() {
  //    } n
 // } n
 
-// void printVec(std::vector<int> const &input) n
-// { n
- //    for (int i = 0; i < input.size(); i++) { n
- //        std::cout << input.at(i) << ' '; n
- //    } n
-// } n
-//
+
+
+
 //scan array
 // for(int i=0; i<n;i++){ n
 //
