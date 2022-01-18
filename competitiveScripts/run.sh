@@ -1,5 +1,5 @@
 #!/bin/zsh
 
-./$1 < input
+./'compiled'$1 < input
 
 
