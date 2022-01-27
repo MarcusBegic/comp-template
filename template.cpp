@@ -11,6 +11,10 @@
 #include <map>
 #include <set>
 #include <cmath>
+#include <unordered_map>
+#include <unordered_set>
+#include <tuple>
+
 
 using namespace std;
 #define pb push_back
@@ -39,8 +43,8 @@ int main() {
   while(t--){
     int n;
     cin >> n;
-    vector<int> vec(n,0);
-    fo(i,0,n) cin >> vec[i];
+    vector<int> a(n,0);
+    fo(i,0,n) cin >> a[i];
   }
 
   return 0;
