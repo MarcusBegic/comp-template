@@ -34,18 +34,17 @@ void solve(){
 
 
 int main() {
-  ios_base::sync_with_stdio(false);
-  cin.tie(NULL);
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-  int t;
-  cin >> t;
+    int t;
+    cin >> t;
 
-  while(t--){
-    int n;
-    cin >> n;
-    vector<int> a(n,0);
-    fo(i,0,n) cin >> a[i];
-  }
+    while(t--){
+        int n; cin >> n;
+        vector<int> a(n,0);
+        fo(i,0,n) cin >> a[i];
+    }
 
   return 0;
 }
