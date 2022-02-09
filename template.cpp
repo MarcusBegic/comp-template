@@ -46,7 +46,7 @@ int main() {
         fo(i,0,n) cin >> a[i];
     }
 
-  return 0;
+   return 0;
 }
 
 // with 1sec 
